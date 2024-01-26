@@ -1,0 +1,34 @@
+{
+  "name": "@bablr/generator-class-trampoline",
+  "description": "An instruction generator for use with grammar classes",
+  "version": "0.0.0",
+  "author": "Conrad Buck<conartist6@gmail.com>",
+  "type": "module",
+  "files": [
+    "lib"
+  ],
+  "exports": {
+    "./parse": "./lib/parse.js",
+    "./passthrough": "./lib/passthrough.js",
+    "./traverse": "./lib/traverse.js"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@bablr/ast-helpers": "github:bablr-lang/ast-helpers#86261c74e09bce97cfa2245f7c0fe4102f70ca7f",
+    "@bablr/vm-helpers": "github:bablr-lang/bablr-vm-helpers#068f44ef278ab3a3e2d8b98ea607e738310df6ef",
+    "@bablr/class-grammar-helpers": "github:bablr-lang/class-grammar-helpers#3bd5c83a2697e3a1b9e421f868a430d3ea1c9be0",
+    "@bablr/coroutine": "github:bablr-lang/coroutine#2342d82713731288034df588f11f540d1b76603d",
+    "@bablr/weak-stack": "github:bablr-lang/weak-stack#f20fba7c998623ceb5c61dd2f09dac3362af22fc"
+  },
+  "devDependencies": {
+    "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef",
+    "enhanced-resolve": "^5.12.0",
+    "eslint": "^8.32.0",
+    "eslint-import-resolver-enhanced-resolve": "^1.0.5",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "^2.6.2"
+  },
+  "repository": "github:bablr-lang/generator-class-trampoline",
+  "homepage": "https://github.com/bablr-lang/generator-class-trampoline",
+  "license": "MIT"
+}
