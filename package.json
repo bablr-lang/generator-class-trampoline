@@ -14,7 +14,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/ast-helpers": "github:bablr-lang/ast-helpers#86261c74e09bce97cfa2245f7c0fe4102f70ca7f",
+    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#8644252e73c979c9b98184c1a5ba978c26d6d8df",
     "@bablr/agast-vm-helpers": "github:bablr-lang/agast-vm-helpers#56c702578f4ccd68bf38e77f629cdba30f7c775d",
     "@bablr/class-grammar-helpers": "github:bablr-lang/class-grammar-helpers#3bd5c83a2697e3a1b9e421f868a430d3ea1c9be0",
     "@bablr/coroutine": "github:bablr-lang/coroutine#2342d82713731288034df588f11f540d1b76603d",
