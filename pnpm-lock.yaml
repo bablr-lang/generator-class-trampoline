@@ -9,8 +9,8 @@ dependencies:
     specifier: github:bablr-lang/agast-helpers#8b57f2971fc91f6dd4e23ec626a77c931c877786
     version: github.com/bablr-lang/agast-helpers/8b57f2971fc91f6dd4e23ec626a77c931c877786
   '@bablr/agast-vm-helpers':
-    specifier: github:bablr-lang/agast-vm-helpers#c3130df9df42652e4c365d60c79fc74bbfc3c85c
-    version: github.com/bablr-lang/agast-vm-helpers/c3130df9df42652e4c365d60c79fc74bbfc3c85c
+    specifier: github:bablr-lang/agast-vm-helpers#62420e6dcf3cd4c9cb9301ba13a3854f4e1af8d4
+    version: github.com/bablr-lang/agast-vm-helpers/62420e6dcf3cd4c9cb9301ba13a3854f4e1af8d4
   '@bablr/class-grammar-helpers':
     specifier: github:bablr-lang/class-grammar-helpers#3bd5c83a2697e3a1b9e421f868a430d3ea1c9be0
     version: github.com/bablr-lang/class-grammar-helpers/3bd5c83a2697e3a1b9e421f868a430d3ea1c9be0
@@ -1843,12 +1843,20 @@ packages:
       '@iter-tools/imm-stack': 1.1.0
     dev: false
 
-  github.com/bablr-lang/agast-vm-helpers/c3130df9df42652e4c365d60c79fc74bbfc3c85c:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-vm-helpers/tar.gz/c3130df9df42652e4c365d60c79fc74bbfc3c85c}
+  github.com/bablr-lang/agast-helpers/f59c044508ac43226f071345f8e0231fa3fc7fa4:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-helpers/tar.gz/f59c044508ac43226f071345f8e0231fa3fc7fa4}
+    name: '@bablr/agast-helpers'
+    version: 0.0.0
+    dependencies:
+      '@iter-tools/imm-stack': 1.1.0
+    dev: false
+
+  github.com/bablr-lang/agast-vm-helpers/62420e6dcf3cd4c9cb9301ba13a3854f4e1af8d4:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-vm-helpers/tar.gz/62420e6dcf3cd4c9cb9301ba13a3854f4e1af8d4}
     name: '@bablr/agast-vm-helpers'
     version: 0.0.0
     dependencies:
-      '@bablr/agast-helpers': github.com/bablr-lang/agast-helpers/8b57f2971fc91f6dd4e23ec626a77c931c877786
+      '@bablr/agast-helpers': github.com/bablr-lang/agast-helpers/f59c044508ac43226f071345f8e0231fa3fc7fa4
     dev: false
 
   github.com/bablr-lang/class-grammar-helpers/3bd5c83a2697e3a1b9e421f868a430d3ea1c9be0:
