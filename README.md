@@ -1,3 +1,13 @@
-# @bablr/generator-class-trampoline
+# @bablr/vm-strategy-parse
 
-Trampolines for performing basic operations using class-based grammars.
+BABLR strategy which parses source text by trampolining a class-based grammar
+
+## Usage
+
+```js
+bablrEvaluate(
+  ctx,
+  source,
+  createParseStrategy(language, matcher),
+);
+```

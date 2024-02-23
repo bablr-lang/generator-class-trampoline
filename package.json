@@ -1,6 +1,6 @@
 {
-  "name": "@bablr/generator-class-trampoline",
-  "description": "An instruction generator for use with grammar classes",
+  "name": "@bablr/vm-strategy-parse",
+  "description": "A BABLR strategy for parsing source text",
   "version": "0.0.0",
   "author": "Conrad Buck<conartist6@gmail.com>",
   "type": "module",
@@ -14,8 +14,8 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#8b57f2971fc91f6dd4e23ec626a77c931c877786",
-    "@bablr/agast-vm-helpers": "github:bablr-lang/agast-vm-helpers#62420e6dcf3cd4c9cb9301ba13a3854f4e1af8d4",
+    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#6080ac9e504fb0392e40cd3ae5ff2e61a2ffc0ba",
+    "@bablr/agast-vm-helpers": "github:bablr-lang/agast-vm-helpers#32e7d34c07a9f81b321c6f418c5d04bf4977f172",
     "@bablr/class-grammar-helpers": "github:bablr-lang/class-grammar-helpers#3bd5c83a2697e3a1b9e421f868a430d3ea1c9be0",
     "@bablr/coroutine": "github:bablr-lang/coroutine#2342d82713731288034df588f11f540d1b76603d",
     "@bablr/weak-stack": "github:bablr-lang/weak-stack#9448f4a9a550900698c072fb39d77307763b5cd8"
@@ -28,7 +28,7 @@
     "eslint-plugin-import": "^2.27.5",
     "prettier": "^2.6.2"
   },
-  "repository": "github:bablr-lang/generator-class-trampoline",
-  "homepage": "https://github.com/bablr-lang/generator-class-trampoline",
+  "repository": "github:bablr-lang/bablr-vm-strategy-parse",
+  "homepage": "https://github.com/bablr-lang/bablr-vm-strategy-parse",
   "license": "MIT"
 }

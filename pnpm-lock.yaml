@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@bablr/agast-helpers':
-    specifier: github:bablr-lang/agast-helpers#8b57f2971fc91f6dd4e23ec626a77c931c877786
-    version: github.com/bablr-lang/agast-helpers/8b57f2971fc91f6dd4e23ec626a77c931c877786
+    specifier: github:bablr-lang/agast-helpers#6080ac9e504fb0392e40cd3ae5ff2e61a2ffc0ba
+    version: github.com/bablr-lang/agast-helpers/6080ac9e504fb0392e40cd3ae5ff2e61a2ffc0ba
   '@bablr/agast-vm-helpers':
-    specifier: github:bablr-lang/agast-vm-helpers#62420e6dcf3cd4c9cb9301ba13a3854f4e1af8d4
-    version: link:../agast-vm-helpers
+    specifier: github:bablr-lang/agast-vm-helpers#32e7d34c07a9f81b321c6f418c5d04bf4977f172
+    version: github.com/bablr-lang/agast-vm-helpers/32e7d34c07a9f81b321c6f418c5d04bf4977f172
   '@bablr/class-grammar-helpers':
     specifier: github:bablr-lang/class-grammar-helpers#3bd5c83a2697e3a1b9e421f868a430d3ea1c9be0
     version: github.com/bablr-lang/class-grammar-helpers/3bd5c83a2697e3a1b9e421f868a430d3ea1c9be0
@@ -1835,12 +1835,29 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/bablr-lang/agast-helpers/8b57f2971fc91f6dd4e23ec626a77c931c877786:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-helpers/tar.gz/8b57f2971fc91f6dd4e23ec626a77c931c877786}
+  github.com/bablr-lang/agast-helpers/6080ac9e504fb0392e40cd3ae5ff2e61a2ffc0ba:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-helpers/tar.gz/6080ac9e504fb0392e40cd3ae5ff2e61a2ffc0ba}
     name: '@bablr/agast-helpers'
     version: 0.0.0
     dependencies:
       '@iter-tools/imm-stack': 1.1.0
+    dev: false
+
+  github.com/bablr-lang/agast-helpers/9d8566be64bb358ff72b35c54fc104c9a7ab5cd4:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-helpers/tar.gz/9d8566be64bb358ff72b35c54fc104c9a7ab5cd4}
+    name: '@bablr/agast-helpers'
+    version: 0.0.0
+    dependencies:
+      '@iter-tools/imm-stack': 1.1.0
+    dev: false
+
+  github.com/bablr-lang/agast-vm-helpers/32e7d34c07a9f81b321c6f418c5d04bf4977f172:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-vm-helpers/tar.gz/32e7d34c07a9f81b321c6f418c5d04bf4977f172}
+    name: '@bablr/agast-vm-helpers'
+    version: 0.0.0
+    dependencies:
+      '@bablr/agast-helpers': github.com/bablr-lang/agast-helpers/9d8566be64bb358ff72b35c54fc104c9a7ab5cd4
+      '@bablr/coroutine': github.com/bablr-lang/coroutine/2342d82713731288034df588f11f540d1b76603d
     dev: false
 
   github.com/bablr-lang/class-grammar-helpers/3bd5c83a2697e3a1b9e421f868a430d3ea1c9be0:
