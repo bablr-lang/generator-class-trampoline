@@ -1,4 +1,4 @@
-# @bablr/vm-strategy-parse
+# @bablr/bablr-vm-strategy-parse
 
 BABLR strategy which parses source text by trampolining a class-based grammar
 
