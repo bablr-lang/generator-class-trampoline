@@ -1,5 +1,5 @@
 {
-  "name": "@bablr/vm-strategy-parse",
+  "name": "@bablr/bablr-vm-strategy-parse",
   "description": "A BABLR strategy for parsing source text",
   "version": "0.0.0",
   "author": "Conrad Buck<conartist6@gmail.com>",
