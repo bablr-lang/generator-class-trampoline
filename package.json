@@ -8,9 +8,7 @@
     "lib"
   ],
   "exports": {
-    "./parse": "./lib/parse.js",
-    "./passthrough": "./lib/passthrough.js",
-    "./traverse": "./lib/traverse.js"
+    ".": "./lib/index.js"
   },
   "sideEffects": false,
   "dependencies": {
