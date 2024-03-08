@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@bablr/agast-helpers':
-    specifier: github:bablr-lang/agast-helpers#6080ac9e504fb0392e40cd3ae5ff2e61a2ffc0ba
-    version: github.com/bablr-lang/agast-helpers/6080ac9e504fb0392e40cd3ae5ff2e61a2ffc0ba
+    specifier: github:bablr-lang/agast-helpers#f2786e7b8051714e5c427ba2c8af92fa8c75e209
+    version: github.com/bablr-lang/agast-helpers/f2786e7b8051714e5c427ba2c8af92fa8c75e209
   '@bablr/agast-vm-helpers':
-    specifier: github:bablr-lang/agast-vm-helpers#32e7d34c07a9f81b321c6f418c5d04bf4977f172
-    version: github.com/bablr-lang/agast-vm-helpers/32e7d34c07a9f81b321c6f418c5d04bf4977f172
+    specifier: github:bablr-lang/agast-vm-helpers#9e7a73db7772cd97952e0b92b6448da8f180ebaf
+    version: github.com/bablr-lang/agast-vm-helpers/9e7a73db7772cd97952e0b92b6448da8f180ebaf
   '@bablr/class-grammar-helpers':
     specifier: github:bablr-lang/class-grammar-helpers#3bd5c83a2697e3a1b9e421f868a430d3ea1c9be0
     version: github.com/bablr-lang/class-grammar-helpers/3bd5c83a2697e3a1b9e421f868a430d3ea1c9be0
@@ -18,8 +18,11 @@ dependencies:
     specifier: github:bablr-lang/coroutine#2342d82713731288034df588f11f540d1b76603d
     version: github.com/bablr-lang/coroutine/2342d82713731288034df588f11f540d1b76603d
   '@bablr/weak-stack':
-    specifier: github:bablr-lang/weak-stack#9448f4a9a550900698c072fb39d77307763b5cd8
-    version: github.com/bablr-lang/weak-stack/9448f4a9a550900698c072fb39d77307763b5cd8
+    specifier: github:bablr-lang/weak-stack#b153132f150f3927f75af0645614c986c7610ab9
+    version: github.com/bablr-lang/weak-stack/b153132f150f3927f75af0645614c986c7610ab9
+  iter-tools-es:
+    specifier: 7.5.3
+    version: 7.5.3
 
 devDependencies:
   '@bablr/eslint-config-base':
@@ -1301,6 +1304,10 @@ packages:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: true
 
+  /iter-tools-es@7.5.3:
+    resolution: {integrity: sha512-xj+T3W48RBrooJhafZZ3m8l0JQ/GBmRTcGfqJx4rA/IevwPRkff/919C8EgfQP3HPTnJnHVi+0KgeGKYjoKzvg==}
+    dev: false
+
   /js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
     dev: true
@@ -1835,28 +1842,20 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/bablr-lang/agast-helpers/6080ac9e504fb0392e40cd3ae5ff2e61a2ffc0ba:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-helpers/tar.gz/6080ac9e504fb0392e40cd3ae5ff2e61a2ffc0ba}
+  github.com/bablr-lang/agast-helpers/f2786e7b8051714e5c427ba2c8af92fa8c75e209:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-helpers/tar.gz/f2786e7b8051714e5c427ba2c8af92fa8c75e209}
     name: '@bablr/agast-helpers'
     version: 0.0.0
     dependencies:
       '@iter-tools/imm-stack': 1.1.0
     dev: false
 
-  github.com/bablr-lang/agast-helpers/9d8566be64bb358ff72b35c54fc104c9a7ab5cd4:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-helpers/tar.gz/9d8566be64bb358ff72b35c54fc104c9a7ab5cd4}
-    name: '@bablr/agast-helpers'
-    version: 0.0.0
-    dependencies:
-      '@iter-tools/imm-stack': 1.1.0
-    dev: false
-
-  github.com/bablr-lang/agast-vm-helpers/32e7d34c07a9f81b321c6f418c5d04bf4977f172:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-vm-helpers/tar.gz/32e7d34c07a9f81b321c6f418c5d04bf4977f172}
+  github.com/bablr-lang/agast-vm-helpers/9e7a73db7772cd97952e0b92b6448da8f180ebaf:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-vm-helpers/tar.gz/9e7a73db7772cd97952e0b92b6448da8f180ebaf}
     name: '@bablr/agast-vm-helpers'
     version: 0.0.0
     dependencies:
-      '@bablr/agast-helpers': github.com/bablr-lang/agast-helpers/9d8566be64bb358ff72b35c54fc104c9a7ab5cd4
+      '@bablr/agast-helpers': github.com/bablr-lang/agast-helpers/f2786e7b8051714e5c427ba2c8af92fa8c75e209
       '@bablr/coroutine': github.com/bablr-lang/coroutine/2342d82713731288034df588f11f540d1b76603d
     dev: false
 
@@ -1892,8 +1891,8 @@ packages:
       - supports-color
     dev: true
 
-  github.com/bablr-lang/weak-stack/9448f4a9a550900698c072fb39d77307763b5cd8:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/weak-stack/tar.gz/9448f4a9a550900698c072fb39d77307763b5cd8}
+  github.com/bablr-lang/weak-stack/b153132f150f3927f75af0645614c986c7610ab9:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/weak-stack/tar.gz/b153132f150f3927f75af0645614c986c7610ab9}
     name: '@bablr/weak-stack'
     version: 0.0.0
     dev: false
