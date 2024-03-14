@@ -14,7 +14,7 @@
   "dependencies": {
     "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#90448dbbce32f902affe36efc2cc3bb17fd9e032",
     "@bablr/agast-vm-helpers": "github:bablr-lang/agast-vm-helpers#b770edcd3ef0d9e3a08f5201b27e3045df12a82b",
-    "@bablr/bablr-helpers": "github:bablr-lang/bablr-helpers#35a31cdbd1836bab7ae08fbab36d18c83242c22c",
+    "@bablr/bablr-helpers": "github:bablr-lang/bablr-helpers#81e93de2bd911e5c1eddfff5d12c8d527122adf4",
     "@bablr/coroutine": "github:bablr-lang/coroutine#2342d82713731288034df588f11f540d1b76603d",
     "@bablr/weak-stack": "github:bablr-lang/weak-stack#b153132f150f3927f75af0645614c986c7610ab9",
     "iter-tools-es": "7.5.3"
